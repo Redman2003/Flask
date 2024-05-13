@@ -23,6 +23,7 @@ from utils import escape_single_quotes
 def _get_valid_access_token():
     #PATH_TO_TOKEN = f'{str(Path("../access/").absolute())}\\
     PATH_TO_TOKEN = f'{LIBAPI_FP}\\libapi\\access\\'
+    print('Hello')
     print(PATH_TO_TOKEN)
     if access_token.check_expiration(path=PATH_TO_TOKEN):
         access_token.load_access_token(path=PATH_TO_TOKEN)
