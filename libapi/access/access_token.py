@@ -59,7 +59,7 @@ def load_access_token(path='.\\'):
     return DIR
     
 
-def extract_access_token(path='\\') -> str|None:
+def extract_access_token(path='\\'):
     if not Path(f'{path}access_token.json').is_file():
         return None
 
