@@ -15,8 +15,6 @@ sys.path.append(str(Path(__file__).parent.parent))
 
 import traceback
 from flask import Blueprint, Flask, request, jsonify, make_response, Response
-from libapi.query.spot_album_builder import SpotifyAlbumEndpoint
-from libapi.query.spot_artist_builder import SpotifyArtistEndpoint
 from libapi.access import access_token
 from libapi.utils.utils import pretty_print
 from release import Release_Table
