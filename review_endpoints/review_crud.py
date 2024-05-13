@@ -1,7 +1,7 @@
 import sys
 from pathlib import Path
 
-LIBAPI_FP = str(Path(__file__).parent.parent.parent.parent.parent)
+LIBAPI_FP = str(Path(__file__).parent.parent
 sys.path.append(LIBAPI_FP)
 sys.path.append(Path(__file__).parent)
 

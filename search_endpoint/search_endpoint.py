@@ -3,7 +3,7 @@ import requests
 from pathlib import Path
 ### Add folder with libapi to sys path. This is so when we import from libapi, python knows where to look
 
-LIBAPI_FP = str(Path(__file__).parent.parent.parent.parent.parent)
+LIBAPI_FP = str(Path(__file__).parent.parent)
 sys.path.append(LIBAPI_FP)
 
 
