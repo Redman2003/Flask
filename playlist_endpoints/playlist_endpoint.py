@@ -10,8 +10,6 @@ sys.path.append(str(Path(__file__).parent.parent))
 
 import traceback
 from flask import Blueprint, Flask, request, jsonify, make_response, Response
-from libapi.query.spot_album_builder import SpotifyAlbumEndpoint # type: ignore
-from libapi.query.spot_artist_builder import SpotifyArtistEndpoint # type: ignore
 from libapi.access import access_token # type: ignore
 from libapi.utils.utils import pretty_print # type: ignore
 from release import Release_Table # type: ignore
