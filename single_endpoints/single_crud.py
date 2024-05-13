@@ -10,7 +10,6 @@ sys.path.append(Path(__file__).parent)
 
 from flask import Blueprint, request, Response, make_response, jsonify
 from libapi.query.query_builder import QueryBuilder # type: ignore
-from libapi.query.spot_track_builder import SpotifyTrackEndpoint # type: ignore
 from libapi.access import access_token #type ignore
 from database import MySQL_Database # type: ignore
 from utils import escape_single_quotes # type: ignore
