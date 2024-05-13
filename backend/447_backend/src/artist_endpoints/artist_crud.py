@@ -8,6 +8,8 @@ LIBAPI_FP = str(Path(__file__).parent.parent.parent.parent.parent)
 sys.path.append(LIBAPI_FP)
 sys.path.append(Path(__file__).parent)
 
+print(LIBAPI_FP)
+
 
 from flask import Blueprint, request, Response, make_response, jsonify
 from libapi.query.query_builder import QueryBuilder
