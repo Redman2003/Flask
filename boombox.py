@@ -30,7 +30,7 @@ MYSQL_DATABASE = "boombox"
 # grab directory for mysql source files
 # have to do this before running flask, or flask will break!
 CWD = os.getcwd()
-os.chdir("../../../database/mysql")
+os.chdir("/db/mysql")
 MYSQL_SOURCE_DIRECTORY = os.getcwd()
 os.chdir(CWD)
 
