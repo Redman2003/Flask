@@ -7,7 +7,7 @@ class MySQL_Database:
             host = host,
             user = user,
             passwd = password,
-            port = 27976
+            port = 51414
         )
         self.cursor = self.database.cursor()
         self.database_name = None
