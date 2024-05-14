@@ -22,7 +22,7 @@ from music_endpoints.music_endpoint import blueprint as music_blueprint, music_i
 # you will need to do app.logger.info(<message>) then check the log file.
 logging.basicConfig(filename="boombox.log", format="%(levelname)s:%(name)s:%(message)s")
 
-MYSQL_HOST = "monorail.proxy.rlwy.net"
+MYSQL_HOST = "roundhouse.proxy.rlwy.net"
 MYSQL_USER = "root"
 MYSQL_PASSWORD = "UNneePUWRDZqBuaMBFOpLbwVdxXSQsgE"
 MYSQL_DATABASE = "boombox"
