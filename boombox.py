@@ -24,8 +24,8 @@ logging.basicConfig(filename="boombox.log", format="%(levelname)s:%(name)s:%(mes
 
 MYSQL_HOST = "monorail.proxy.rlwy.net"
 MYSQL_USER = "root"
-MYSQL_PASSWORD = "AdTuTnYhHQyeKOaiTDldwvDyLbTzWmIm"
-MYSQL_DATABASE = "boombox"
+MYSQL_PASSWORD = "JRBSIBWPqzmKnUAZboBovKZZPwtSUKuR"
+MYSQL_DATABASE = "railway"
 
 # grab directory for mysql source files
 # have to do this before running flask, or flask will break!
