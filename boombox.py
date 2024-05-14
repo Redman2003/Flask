@@ -24,7 +24,7 @@ logging.basicConfig(filename="boombox.log", format="%(levelname)s:%(name)s:%(mes
 
 MYSQL_HOST = "roundhouse.proxy.rlwy.net"
 MYSQL_USER = "root"
-MYSQL_PASSWORD = "UNneePUWRDZqBuaMBFOpLbwVdxXSQsgE"
+MYSQL_PASSWORD = "FCTbqQKuIukbfzJdtWOepqXKCQxHrneU"
 MYSQL_DATABASE = "boombox"
 
 # grab directory for mysql source files
