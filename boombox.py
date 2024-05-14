@@ -104,4 +104,4 @@ music_init_db(MYSQL_HOST, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE)
 
 # driver
 if __name__ == "__main__":
-    app.run(debug=True, use_reloader=False)
+    app.run(debug=True, port=os.getenv("PORT", default=5000))
