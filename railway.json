@@ -4,7 +4,7 @@
         "builder": "NIXPACKS"
     },
     "deploy": {
-        "startCommand": "gunicorn -w 1 -b 0.0.0.0:5000 boombox:app",
+        "startCommand": "gunicorn boombox:app",
         "restartPolicyType": "ON_FAILURE",
         "restartPolicyMaxRetries": 10
     }
